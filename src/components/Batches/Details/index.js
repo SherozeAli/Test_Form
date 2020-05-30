@@ -26,13 +26,14 @@ function Index() {
           image: "",
         }}
         validationSchema={BatchesSchema}
-        onSubmit={(values, { setSubmitting }) => {
+        onSubmit={(values, { resetForm }) => {
           swal({
             title: "Success",
             text: "Details Submitted Successfully",
             icon: "success",
             button: "OK",
           });
+          resetForm({});
         }}
       >
         {({ values, errors, touched, setFieldValue }) => (
