@@ -62,8 +62,8 @@ function Index() {
                       name="category"
                     >
                       <option value="">--Select Category--</option>
-                      <option value="Pakistan">Pakistan</option>
                       <option value="Delhi">Delhi</option>
+                      <option value="Pakistan">Pakistan</option>
                     </Select>
                     <div class="invalid-feedback">{errors.batchName}</div>
                   </div>

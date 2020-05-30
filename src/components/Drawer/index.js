@@ -84,7 +84,7 @@ function Index() {
       </NavBar>
       <div class="container-fluid px-0 h-100">
         <div class="row vh-100 collapse show no-gutters d-flex h-100 position-relative">
-          <div class="col-lg-2 bg-primary p-0 vh-100 h-100 text-white navbar-collapse collapse d-none d-lg-flex">
+          <div class="col-lg-2 p-0 vh-100 h-100 text-white navbar-collapse collapse d-none d-lg-flex">
             <Drawer>
               <ul class="nav flex-column flex-nowrap text-truncate">
                 <DrawerHeader>
