@@ -1,0 +1,6 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    padding-top: 55px;
+    background-color: #f5f7fa !important;
+}
